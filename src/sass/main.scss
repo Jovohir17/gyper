@@ -1,0 +1,1083 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "a_grotic";
+  src: url("../fonts/a_groticlt-bolditalic.ttf")
+  format("truetype");
+}
+
+.center{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+
+
+
+@media screen and (max-width:640px){
+  header{
+    width: 100%;
+    background: black;
+    height: 687px;
+
+    .df{
+        svg{
+          display: none;
+        }
+
+        img{
+          position: absolute;
+          width: 89%;
+          left: -34%;
+          /* right: 0; */
+          margin-top: 10%;
+          z-index: 1;
+        }
+      .header-element{
+        position: absolute;
+        z-index: 2;
+        padding-top: 118px;
+        margin-left: 43px;
+
+        h1, h2 {
+          z-index: 2;
+          margin: 0; /* Убираем внешние отступы для текстов */
+          font-family: "Montserrat", sans-serif;
+          letter-spacing: 0;
+          text-align: left;
+        }
+
+        h1 {
+          z-index: 2;
+          color: rgb(255, 255, 255);
+          font-size: 17.5vw; /* Размер шрифта для заголовка */
+          font-weight: 700;
+          line-height: 41px;
+        }
+
+        h2 {
+          z-index: 2;
+          color: rgb(189, 243, 71);
+          font-size: 19.5vw; /* Размер шрифта для подзаголовка */
+          font-weight: 700;
+        }
+
+
+        .score{
+          color: rgb(255, 255, 255);
+          font-family: Microsoft Sans Serif;
+          font-size: 25px;
+          font-weight: 400;
+          line-height: 28px;
+          letter-spacing: 0;
+          text-align: left;
+          margin-top: 5px;
+        }
+
+        .imagine{
+          width: 90%;
+          margin-top: 15px;
+          color: rgb(255, 255, 255);
+          font-family: Microsoft Sans Serif;
+          font-size: 3.9vw;
+          font-weight: 400;
+          line-height: 28px;
+          letter-spacing: 0;
+          text-align: left;
+        }
+
+        button{
+          border: 0;
+          margin-top: 47px;
+          border-radius: 11px;
+          background: rgb(189, 243, 71);
+          width: 60%;
+          height: 76px;
+
+          color: rgb(0, 0, 0);
+          font-family: "Montserrat", sans-serif;
+          font-size: 5vw;
+          font-weight: 700;
+          line-height: 39px;
+          letter-spacing: 0;
+          text-align: center;
+          margin-bottom: 20%;
+        }
+      }
+    }
+  }
+
+  section{
+    width: 100%;
+
+    .support{
+      width: 100%;
+      height: 1427px;
+      background: black;
+
+      h2{
+        margin-top: 57px;
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat", sans-serif;
+        font-size: 63px;
+        font-weight: 700;
+        line-height: 76px;
+        letter-spacing: 0;
+        text-align: left;
+        width: 90%;
+        margin-left: 5%;
+      }
+
+      .df{
+
+        .section_item{
+          position: absolute;
+          z-index: 2;
+          margin-top: 40px;
+          margin-left: 45px;
+
+          .df{
+            margin-top: 70px;
+            display: flex;
+
+            svg{
+              width: 33%;
+              height: 148px;
+            }
+
+            p{
+              color: rgb(255, 255, 255);
+              font-family: "Montserrat", sans-serif;
+              font-size: 18vw;
+              font-weight: 700;
+              line-height: 140px;
+              letter-spacing: 0;
+              text-align: left;
+              margin-left: 20px;
+            }
+          }
+
+
+          .buttomm{
+            color: rgb(255, 255, 255);
+            font-family: Inter;
+            font-size: 4.3vw;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 0;
+            text-align: left;
+            margin-left: 36%;
+            margin-top: -5%;
+
+
+          }
+
+          .buttomm3{
+            color: rgb(255, 255, 255);
+            font-family: Inter;
+            font-size: 4.3vw;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 0;
+            text-align: left;
+            margin-left: 36%;
+            margin-top: -5%;
+          }
+        }
+
+        .glob{
+          position: absolute;
+          z-index: 1;
+          width: 100%;
+          margin-top: 499px;
+        }
+      }
+    }
+
+    /////////
+
+
+    .our{
+      width: 100%;
+      height: 2062px;
+      background: black;
+
+      h2{
+        padding-top: 83px;
+        width: 90%;
+        margin-left: 5%;
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-weight: 700;
+        line-height: 64px;
+        text-align: left;
+        font-size: 8.5vw;
+      }
+
+      hr{
+
+        /* Rectangle 17 */
+        width: 90%;
+        margin-left: 5%;
+        height: 12px;
+        background: rgb(189, 243, 71);
+        border: 0;
+      }
+
+      .our__carts{
+        margin-left: 15%;
+
+        .card{
+          width: 80%;
+          height: 511px;
+          box-sizing: border-box;
+          border: 1px solid rgb(255, 255, 255);
+          border-radius: 33px;
+          background: black;
+          margin-top: 89px;
+
+
+          .circle{
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            box-sizing: border-box;
+            border: 1px solid rgb(255, 255, 255);
+            background: rgb(0, 0, 0);
+            border-radius: 80px;
+            margin-left: 68%;
+            margin-top: -44px;
+            justify-content: center;
+            align-items: center;
+
+            p{
+              color: rgb(255, 255, 255);
+              font-family: sans-serif;
+              font-size: 50px;
+              font-weight: 700;
+              line-height: 61px;
+              letter-spacing: 0;
+              text-align: left;
+              margin-left: 27px;
+              margin-top: 18px;
+            }
+          }
+
+          h3{
+            color: rgb(189, 243, 71);
+            font-family: "Montserrat", sans-serif;
+            font-size: 5vw;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0;
+            text-align: left;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 79px;
+          }
+
+          p{
+            width: 80%;
+            margin-top: 58px;
+            margin-left: 10%;
+            color: rgb(255, 255, 255);
+            font-family: "Montserrat", sans-serif;
+            font-size: 4vw;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    /////////
+
+
+    .review{
+      width: 100%;
+      height: 1665px;
+      background: black;
+
+      img{
+        /* Vector */
+        position: absolute;
+        width: 634px;
+        height: 493px;
+        z-index: 1;
+        right: 0;
+      }
+
+      .double-line {
+        line-height: 1.2; /* Высота строки */
+        color: white;
+        font-size: 14.5vw;
+        text-align: left;
+        margin-left: 5%;
+        padding-top: 38px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .double-line:before,
+      .double-line:after {
+        content: ""; /* Пустой контент для создания пустых строк */
+        display: block; /* Позволяет использовать свойства top и bottom */
+        height: 0; /* Высота пустых строк */
+        text-align: left;
+      }
+
+      .our__carts{
+        margin-left: 20%;
+
+
+        .card{
+          margin-top: 60px;
+          width: 80%;
+          box-sizing: border-box;
+          border: 2px solid rgb(255, 255, 255);
+          background: rgba(0, 0, 0, 0);
+
+          .dess {
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 37px;
+            color: rgb(255, 255, 255);
+            font-family: "Montserrat", sans-serif;
+            font-size: 4vw;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0;
+            text-align: center;
+          }
+
+          hr{
+            margin-top: 11px;
+            border: 1.5px solid rgb(255, 255, 255);
+            width: 90%;
+            margin-left: 5%;
+          }
+
+          .df{
+            display: flex;
+            margin-top: 21px;
+
+            p{
+              margin-top: 5px;
+              color: rgb(255, 255, 255);
+              font-family: "Montserrat", sans-serif;
+              font-size: 3.5vw;
+              font-weight: 700;
+              line-height: 28px;
+              letter-spacing: 0;
+              text-align: left;
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+
+    /////////
+
+
+    .choose{
+      width: 100%;
+      height: 1665px;
+      background: black;
+
+
+      .center{
+
+        h2{
+          font-size: 10.5vw;
+          color: rgb(189, 243, 71);
+          font-family: "Montserrat", sans-serif;
+          font-weight: 700;
+          line-height: 104px;
+          letter-spacing: 0;
+          text-align: center;
+          margin-top: 26px;
+
+          span{
+            color: white;
+          }
+        }
+      }
+
+      .card__choose{
+        margin-left: 20%;
+        margin-top: 120px;
+
+        .card{
+          margin-top: 60px;
+          width: 80%;
+
+          h3{
+            color: rgb(255, 255, 255);
+            font-family: "Montserrat", sans-serif;
+            font-size: 12vw;
+            font-weight: 700;
+            line-height: 93px;
+            letter-spacing: 0;
+            text-align: center;
+          }
+
+          .nn1{
+            margin-top: 49px;
+          }
+          p{
+            color: rgb(255, 255, 255);
+            font-family: "Montserrat", sans-serif;
+            font-size: 4vw;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0;
+            text-align: center;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 15px;
+          }
+
+          hr{
+            margin-top: 12px;
+            border: 1.5px solid rgb(255, 255, 255);
+          }
+
+        }
+      }
+
+
+    }
+
+    /////////
+  }
+
+  footer{
+    width: 100%;
+    background: black;
+
+    img{
+      position: absolute;
+      width: 100%;
+      margin-top: 191px;
+    }
+
+    h2{
+      color: rgb(189, 243, 71);
+      font-family:  sans-serif;
+      font-size: 15vw;
+      font-weight: 700;
+      line-height: 169px;
+      letter-spacing: 0;
+      text-align: left;
+      margin-left: 18px;
+      padding-top: 18px;
+    }
+
+    .double-line {
+      line-height: 1.2; /* Высота строки */
+    }
+
+    .double-line:before,
+    .double-line:after {
+      content: ""; /* Пустой контент для создания пустых строк */
+      display: block; /* Позволяет использовать свойства top и bottom */
+      height: 0; /* Высота пустых строк */
+    }
+
+    h3{
+      font-family:  sans-serif;
+      font-size: 15vw;
+      letter-spacing: 0;
+      text-align: left;
+      margin-left: 18px;
+      color: white;
+
+      span{
+        color: rgb(189, 243, 71);
+      }
+    }
+    button{
+      width: 56%;
+      box-sizing: border-box;
+      border: 3px solid rgb(255, 255, 255);
+      border-radius: 26px;
+
+      background: rgb(0, 0, 0);
+      height: 89px;
+      margin-left: 18px;
+      color: rgb(255, 255, 255);
+      font-family: "Montserrat", sans-serif;
+      font-size: 5vw;
+      font-weight: 700;
+      line-height: 39px;
+      letter-spacing: 0;
+      text-align: center;
+      margin-top: 46px;
+      margin-bottom: 330px;
+
+    }
+  }
+
+}
+
+@media screen and (min-width:641px)and (max-width: 9999px){
+
+  .anim{
+    animation: float 3s ease-in-out infinite;
+  }
+  .df{
+    display: flex;
+  }
+
+  .centerr{
+    display: flex;
+    justify-content: center;
+  }
+
+  header{
+    background: black;
+    width: 100%;
+    height: 1005px;
+
+    .df{
+
+      svg{
+        /* Vector */
+        position: absolute;
+        width: 60%;
+        height: 1000px;
+        left: -286px;
+        right: 0;
+        top: 0%;
+        bottom: -16.52%;
+      }
+
+      .header-element {
+        margin-left: 39%;
+        margin-top: 11%;
+        h1 {
+          color: rgb(255, 255, 255);
+          font-family: 'Montserrat', sans-serif;
+          font-size: 140px;
+          font-weight: 700;
+          text-align: left;
+          left: -678px;
+          right: 0;
+          top: -1676px;
+          bottom: 0;
+          color: white;
+          width: 578px;
+          height: 140px;
+        }
+
+        h2{
+          width: 362px;
+          height: 210px;
+          color: rgb(189, 243, 71);
+          font-family: 'Montserrat', sans-serif;
+          font-size: 170px;
+          font-weight: 700;
+          line-height: 206px;
+          letter-spacing: 0;
+          text-align: left;
+        }
+
+        .score{
+          color: rgb(255, 255, 255);
+          font-family: a_grotic;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 48px;
+          letter-spacing: 0;
+          text-align: left;
+        }
+
+        .imagine{
+          color: rgb(255, 255, 255);
+          font-family: a_grotic;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 48px;
+          letter-spacing: 0;
+          text-align: left;
+          width: 65%;
+        }
+
+        button{
+          margin-top: 3%;
+          border-radius: 11px;
+          background: rgb(189, 243, 71);
+          width: 362px;
+          height: 89px;
+          color: rgb(0, 0, 0);
+          font-family: sans-serif;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 39px;
+          letter-spacing: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  section{
+    .support{
+      width: 100%;
+      height: 1427px;
+      background: black;
+
+      .center{
+
+        h2{
+          margin-top: 157px;
+          color: rgb(255, 255, 255);
+          font-family: 'Montserrat', sans-serif;
+          font-size: 5.5vw;
+          font-weight: 700;
+          line-height: 125px;
+          letter-spacing: 0;
+          text-align: left;
+        }
+      }
+
+      .df{
+
+        .section_item{
+          margin-top: 5.5%;
+          margin-left: 15%;
+
+          .df{
+            margin-top: 15%;
+
+            .top{
+              color: rgb(255, 255, 255);
+              font-family: 'Montserrat', sans-serif;
+              font-size: 6vw;
+              font-weight: 700;
+              line-height: 140px;
+              letter-spacing: 0;
+              text-align: left;
+              margin-left: 39px;
+
+              .buttomm{
+                color: rgb(255, 255, 255);
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5vw;
+                font-weight: 700;
+                line-height: 34px;
+                letter-spacing: 0;
+                text-align: left;
+              }
+            }
+
+            .top1{
+              margin-left: 10px;
+              color: rgb(255, 255, 255);
+              font-family: 'Montserrat', sans-serif;
+              font-size: 6vw;
+              font-weight: 700;
+              line-height: 140px;
+              letter-spacing: 0;
+              text-align: left;
+
+            }
+          }
+          .buttomm{
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5vw;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 0;
+            text-align: left;
+            margin-left: 220px;
+            margin-top: -56px;
+            position: absolute;
+          }
+
+          .buttomm3{
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 0;
+            text-align: left;
+            margin-left: 220px;
+            margin-top: -36px;
+            position: absolute;
+          }
+        }
+
+        .glob{
+          width: 100%;
+          margin-left: 4%;
+          margin-top: 94px;
+
+        }
+      }
+    }
+
+    .our{
+      width: 100%;
+      height: 1027px;
+      background: black;
+
+      h2{
+        color: rgb(255, 255, 255);
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 13.1%;
+        padding-top: 112px;
+        font-size: 4.7vw;
+        font-weight: 700;
+        line-height: 116px;
+        letter-spacing: 0;
+        text-align: left;
+      }
+
+      hr{
+        /* Rectangle 8 */
+        width: 52.5%;
+        height: 22px;
+        background: rgb(189, 243, 71);
+        margin-left: 13.1%;
+        border: 0;
+      }
+
+      .our__carts{
+        margin-left: 13.1%;
+        margin-top: 120px;
+        display: flex;
+        gap: 29px;
+
+        .card{
+          width: 26.7%;
+          height: 511px;
+          box-sizing: border-box;
+          border: 1px solid rgb(255, 255, 255);
+          border-radius: 33px;
+          background: rgba(0, 60, 107, 0);
+
+          .circle{
+            margin-left: 72%;
+            margin-top: -44px;
+            box-sizing: border-box;
+            border: 1px solid rgb(255, 255, 255);
+            background: rgb(0, 0, 0);
+            width: 90px;
+            height: 90px;
+            border-radius: 50px;
+
+            p{
+              color: rgb(255, 255, 255);
+              font-family: sans-serif;
+              font-size: 50px;
+              font-weight: 700;
+              line-height: 61px;
+              letter-spacing: 0;
+              text-align: left;
+              margin-left: 30px;
+              margin-top: 16px;
+            }
+          }
+
+          h3{
+            color: rgb(189, 243, 71);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.3vw;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0;
+            text-align: left;
+            margin-top: 61px;
+            margin-left: 12%;
+          }
+
+          .dess{
+            width: 290px;
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2vw;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0;
+            text-align: left;
+            margin-top: 57px;
+            margin-left: 12%;
+            width: 80% ;
+          }
+        }
+      }
+    }
+
+    .review{
+      width: 100%;
+      height: 1027px;
+      background: black;
+
+      img{
+        position: absolute;
+        width: 734px;
+        height: 493px;
+        right: 0%;
+      }
+
+      h2{
+        color: rgb(255, 255, 255);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6.5vw;
+        font-weight: 700;
+        line-height: 155px;
+        letter-spacing: 0;
+        text-align: left;
+        margin-left: 12.5%;
+        padding-top: 118px;
+      }
+
+      .our__carts{
+        display: flex;
+        margin-top: 32px;
+        margin-left: 12.5%;
+        gap: 63px;
+
+        .card{
+          width: 26.5%;
+          height: 372px;
+          box-sizing: border-box;
+          border: 2px solid rgb(189, 243, 71);
+          background: rgba(0, 0, 0, 0);
+
+          .dess{
+            color: rgb(255, 255, 255);
+            width: 90%;
+            font-size: 1.3vw;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0;
+            text-align: center;
+            margin-left: 5%;
+            margin-top: 37px;
+            font-family: 'Montserrat', sans-serif;
+          }
+
+          hr{
+            /* Line 10 */
+            width: 90%;
+            height: 0;
+            border: 2px solid rgb(189, 243, 71);
+            margin-left: 5%;
+            margin-top: 11px;
+          }
+
+          .df{
+
+            svg {
+              padding-top: 21px;
+
+
+
+              path {
+                height: 90px;
+                width: 80px;
+
+              }
+            }
+
+            p{
+              color: rgb(255, 255, 255);
+              font-family: 'Montserrat', sans-serif;
+              font-size: 1.2vw;
+              width: 90%;
+              font-weight: 700;
+              line-height: 28px;
+              letter-spacing: 0;
+              text-align: left;
+              padding-top: 29px;
+            }
+          }
+        }
+      }
+    }
+
+    .choose{
+      width: 100%;
+      height: 855px;
+      background: black;
+
+      .center{
+        h2{
+          color: rgb(189, 243, 71);
+          font-family: 'Montserrat', sans-serif;
+          font-size: 5.6vw;
+          font-weight: 700;
+          line-height: 131px;
+          letter-spacing: 0;
+          text-align: left;
+          margin-top: 93px;
+        }
+      }
+
+      .card__choose{
+        margin-top: 5%;
+        gap: 183px;
+
+        .card{
+          h3{
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 4vw;
+            font-weight: 700;
+            line-height: 93px;
+            letter-spacing: 0;
+            text-align: center;
+          }
+
+          .first{
+            margin-top: 49px;
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0;
+            text-align: center;
+          }
+
+          hr{
+            margin-top: 10px;
+            width: 100%;
+            height: 0;
+          }
+
+          p{
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 20px;
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2vw;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0;
+            text-align: center;
+          }
+
+        }
+      }
+    }
+  }
+
+  footer{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 855px;
+
+    h2{
+      width: 60%;
+      margin-top: 68px;
+      margin-left: 18%;
+      color: rgb(189, 243, 71);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 7.3vw;
+      font-weight: 700;
+      line-height: 169px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+
+    h3{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 7.3vw;
+      font-weight: 700;
+      line-height: 169px;
+      letter-spacing: 0;
+      text-align: left;
+      margin-left: 18%;
+      color: rgb(255, 255, 255);
+
+      span{
+        color: rgb(189, 243, 71);
+        margin-left: -30px;
+      }
+    }
+
+    button{
+      box-sizing: border-box;
+      border: 3px solid rgb(255, 255, 255);
+      border-radius: 26px;
+
+      background: rgb(0, 0, 0);
+      margin-left: 18%;
+      margin-top: 49px;
+      width: 362px;
+      height: 89px;
+      color: rgb(255, 255, 255);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 39px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    img{
+      position: absolute;
+      width: 729px;
+      margin-top: 120px;
+      //margin-left: 1171px;
+      right: 0;
+    }
+  }
+
+  .dlob{
+    display: none;
+  }
+}
+
+
+/* Стили для скроллбара */
+::-webkit-scrollbar {
+  width: 10px; /* Ширина скроллбара */
+  background-color: #000; /* Цвет фона скроллбара */
+}
+
+/* Стили для трека скроллбара (фон) */
+::-webkit-scrollbar-track {
+  background: #000; /* Цвет полоски скроллбара */
+
+}
+
+/* Стили для полоски скроллбара */
+::-webkit-scrollbar-thumb {
+  background: rgb(189, 243, 71); /* Цвет трека скроллбара */
+
+  border-radius: 5px; /* Радиус закругления углов полоски скроллбара */
+}
+
+/* Стили для полоски скроллбара при наведении */
+
+@keyframes float{
+  0%,to{
+    -webkit-transform:translateX(10px);
+    transform:translateX(10px)
+  }
+  50%{
+    -webkit-transform:translateY(10px);
+    transform:translateY(10px)
+  }
+}
+
+.anim{
+  -webkit-animation:float 3s ease-in-out infinite;
+  animation:float 3s ease-in-out infinite
+}

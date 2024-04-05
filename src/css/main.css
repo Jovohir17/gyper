@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "a_grotic";
+  src: url("../fonts/a_groticlt-bolditalic.ttf") format("truetype");
+}
+.center {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.df {
+  display: flex;
+}
+
+header {
+  background: black;
+  width: 100%;
+  height: 1005px;
+}
+header .df svg {
+  /* Vector */
+  position: absolute;
+  width: 60%;
+  height: 1000px;
+  left: -286px;
+  right: 0;
+  top: 0%;
+  bottom: -16.52%;
+}
+header .df .header-element {
+  margin-left: 39%;
+  margin-top: 11%;
+}
+header .df .header-element h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  text-align: left;
+  left: -678px;
+  right: 0;
+  top: -1676px;
+  bottom: 0;
+  color: white;
+  width: 578px;
+  height: 140px;
+}
+header .df .header-element h2 {
+  width: 362px;
+  height: 210px;
+  color: rgb(189, 243, 71);
+  font-family: "Montserrat", sans-serif;
+  font-size: 170px;
+  font-weight: 700;
+  line-height: 206px;
+  letter-spacing: 0;
+  text-align: left;
+}
+header .df .header-element .score {
+  color: rgb(255, 255, 255);
+  font-family: a_grotic;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: left;
+}
+header .df .header-element .imagine {
+  color: rgb(255, 255, 255);
+  font-family: a_grotic;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: left;
+  width: 65%;
+}
+header .df .header-element button {
+  margin-top: 3%;
+  border-radius: 11px;
+  background: rgb(189, 243, 71);
+  width: 362px;
+  height: 89px;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.support {
+  width: 100%;
+  height: 1427px;
+  background: black;
+}
+.support .center h2 {
+  margin-top: 157px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.5vw;
+  font-weight: 700;
+  line-height: 125px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.support .df .section_item {
+  margin-top: 5.5%;
+  margin-left: 15%;
+}
+.support .df .section_item .df {
+  margin-top: 15%;
+}
+.support .df .section_item .df .top {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 6vw;
+  font-weight: 700;
+  line-height: 140px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 39px;
+}
+.support .df .section_item .df .top .buttomm {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.support .df .section_item .df .top1 {
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 6vw;
+  font-weight: 700;
+  line-height: 140px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.support .df .section_item .buttomm {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 220px;
+  margin-top: -56px;
+  position: absolute;
+}
+.support .df .section_item .buttomm3 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 220px;
+  margin-top: -36px;
+  position: absolute;
+}
+.support .df .glob {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 94px;
+}
+
+/*# sourceMappingURL=main.css.map */
